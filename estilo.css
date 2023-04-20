@@ -1,0 +1,45 @@
+/* Estilos para centrar el contenido */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilos para el contenedor del formulario */
+  .form-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para los campos de texto */
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el botón de enviar */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2E8B57;
+  }
+  
